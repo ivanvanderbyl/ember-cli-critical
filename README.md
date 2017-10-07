@@ -1,26 +1,34 @@
-# ember-cli-critical-css
+# `ember-cli-critical-css`
 
-This README outlines the details of collaborating on this Ember addon.
+This addon adds an ember-cli post build hook which runs your built app through [Critical](https://github.com/addyosmani/critical/) 
+
+> Critical extracts & inlines critical-path (above-the-fold) CSS from HTML
+
+It will remove the extracted CSS from your stylesheets andm rewrite the link tags to point to the new files after inlining.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-critical-css`
-* `npm install`
+    ember install ember-cli-critical-css
 
-## Running
+## Configuration
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+By default this addon will run only on production builds, but you can change this by overwriting
+the `enabled` setting in your `ember-cli-build.js`
+
+```js
+{
+  "ember-cli-critical-css": {
+    enabled: true,
+    critical: {
+      // critical options
+    }
+  }
+}
+
+```
 
 ## Running Tests
 
 * `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
