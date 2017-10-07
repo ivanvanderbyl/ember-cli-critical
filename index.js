@@ -7,7 +7,7 @@ const path = require('path')
 const defaults = require('lodash.defaultsdeep')
 
 module.exports = {
-  name: 'ember-cli-critical-css',
+  name: 'ember-cli-critical',
 
   included(app) {
     let defaultOptions = {

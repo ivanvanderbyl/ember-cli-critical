@@ -1,4 +1,4 @@
-# `ember-cli-critical-css`
+# `ember-cli-critical`
 
 This addon adds an ember-cli post build hook which runs your built app through [Critical](https://github.com/addyosmani/critical/) 
 
@@ -8,7 +8,7 @@ It will remove the extracted CSS from your stylesheets andm rewrite the link tag
 
 ## Installation
 
-    ember install ember-cli-critical-css
+    ember install ember-cli-critical
 
 ## Configuration
 
@@ -17,7 +17,7 @@ the `enabled` setting in your `ember-cli-build.js`
 
 ```js
 {
-  "ember-cli-critical-css": {
+  "ember-cli-critical": {
     enabled: true,
     critical: {
       // critical options

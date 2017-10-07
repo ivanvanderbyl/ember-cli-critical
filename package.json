@@ -1,9 +1,12 @@
 {
-  "name": "ember-cli-critical-css",
-  "version": "0.0.0",
-  "description":
-    "Ember CLI addon which wraps Critical, to extract & inline critical-path (above-the-fold) CSS from HTML",
-  "keywords": ["ember-addon", "css", "critical"],
+  "name": "ember-cli-critical",
+  "version": "0.1.0",
+  "description": "Ember CLI addon which wraps Critical, to extract & inline critical-path (above-the-fold) CSS from HTML",
+  "keywords": [
+    "ember-addon",
+    "css",
+    "critical"
+  ],
   "license": "MIT",
   "author": "Ivan Vanderbyl",
   "directories": {
@@ -19,6 +22,7 @@
   "dependencies": {
     "critical": "^0.9.1",
     "ember-cli-babel": "^6.3.0",
+    "ember-cli-release": "^1.0.0-beta.2",
     "lodash.defaultsdeep": "^4.6.0"
   },
   "devDependencies": {
