@@ -1,10 +1,8 @@
 {
-  "name": "ember-cli-critical-css",
+  "name": "ember-cli-critical",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
-  "keywords": [
-    "ember-addon"
-  ],
+  "keywords": ["ember-addon"],
   "license": "MIT",
   "author": "",
   "directories": {
@@ -19,7 +17,8 @@
   },
   "dependencies": {
     "critical": "^0.9.1",
-    "ember-cli-babel": "^6.3.0"
+    "ember-cli-babel": "^6.3.0",
+    "lodash.defaultsdeep": "^4.6.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -43,7 +42,7 @@
     "loader.js": "^4.2.3"
   },
   "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+    "node": ">= 7.*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
