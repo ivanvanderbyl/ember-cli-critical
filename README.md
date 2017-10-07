@@ -4,7 +4,7 @@ This addon adds an ember-cli post build hook which runs your built app through [
 
 > Critical extracts & inlines critical-path (above-the-fold) CSS from HTML
 
-It will remove the extracted CSS from your stylesheets andm rewrite the link tags to point to the new files after inlining.
+It will remove the extracted CSS from your stylesheets and rewrite the link tags to point to the new files after inlining.
 
 ## Installation
 
@@ -26,6 +26,8 @@ the `enabled` setting in your `ember-cli-build.js`
 }
 
 ```
+
+See [Critical](https://github.com/addyosmani/critical/#usage) usage for available options.
 
 ## Running Tests
 
