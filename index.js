@@ -46,7 +46,7 @@ module.exports = {
           css: cssFiles,
           width: 1300,
           height: 900,
-        }),
+        })
       )
     }
   },
