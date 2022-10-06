@@ -23,7 +23,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "critical": "^0.9.1",
+    "critical": "^5.0.3",
     "ember-cli-babel": "^6.3.0",
     "ember-cli-release": "^1.0.0-beta.2",
     "lodash.defaultsdeep": "^4.6.0"
